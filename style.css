@@ -1,4 +1,13 @@
 /* comments look like this in CSS files */
+body{
+    background-color: #32F0B0;
+    width: 100%;
+    height: 100%;
+}
+p {
+font-size: 1.7em;
+}
+
 
 #navbar {
   background-color: #000000; /* black */
