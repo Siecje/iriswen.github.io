@@ -8,21 +8,50 @@ p {
 font-size: 1.7em;
 }
 
-
-#navbar {
-  background-color: #000000; /* black */
-  color: #ffffff;            /* white */
+#about {
+  color: #606060;            /* white */
   margin: 0;
-  padding: 0.5em 0; /* 0.5em padding on top/bottom, 0 padding on left/right */
+  padding: 1em 0; /* 0.5em padding on top/bottom, 0 padding on left/right */
+} 
+#courseload {
+  color: #606060;            
+  margin: 0;
+  padding: 1em 0; /* 0.5em padding on top/bottom, 0 padding on left/right */
+} 
+#navbar {
+  color: #ffffff;            /* white */
+  background-color: #000000; /* black */
+  margin: 0;
+  padding: 1em 0; /* 0.5em padding on top/bottom, 0 padding on left/right */
 }
 
-#navbar a {
+a {
+color: #ffffff;
+}
+
+#photo {
+    width: 20%;
+    height: 20%;
+}
+
+#navbar a:hover {
   margin: 0;
   padding: 0.5em;
-  color: #ffffff;
+  color: #32f0b0;
   text-decoration: none;
 }
-
+#social a:hover {
+  margin: 0;
+  padding: 0.5em;
+  color: #606060;
+  text-decoration: none;
+}
 main {
   padding: 0.5em;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
