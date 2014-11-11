@@ -5,19 +5,26 @@ body{
     height: 100%;
 }
 p {
-font-size: 1.7em;
+font-size: 1.5em;
 }
 
 #about {
   color: #606060;            /* white */
   margin: 0;
-  padding: 1em 0; /* 0.5em padding on top/bottom, 0 padding on left/right */
+  padding: 0.1em 0; /* 0.5em padding on top/bottom, 0 padding on left/right */
 } 
 #courseload {
   color: #606060;            
   margin: 0;
-  padding: 1em 0; /* 0.5em padding on top/bottom, 0 padding on left/right */
+  padding: 0.1em 0; /* 0.5em padding on top/bottom, 0 padding on left/right */
 } 
+
+#courseload a:hover {
+  margin: 0;
+  padding: 0.5em;
+  color: #000000;
+  text-decoration: none;
+}
 #navbar {
   color: #ffffff;            /* white */
   background-color: #000000; /* black */
@@ -38,12 +45,6 @@ color: #ffffff;
   margin: 0;
   padding: 0.5em;
   color: #32f0b0;
-  text-decoration: none;
-}
-#social a:hover {
-  margin: 0;
-  padding: 0.5em;
-  color: #606060;
   text-decoration: none;
 }
 main {
