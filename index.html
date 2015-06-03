@@ -8,16 +8,34 @@
 	  text-align: center;
 	  margin: auto;
 	}
+  .Aligner {
+  display: flex;
+  align-items: center;
+  height: 24em; /* 1 */
+  justify-content: center;
+}
+@supports not (-ms-flex: 1) {
+  .Aligner {
+    height: auto; /* 2 */
+    min-height: 24em; /* 2 */
+  }
+}
+
+.Aligner-item {
+  flex: 1;
+}
 	</style>
 </head>
 
 <body>
 	<header> <!-- stuff that never changes (site name, navigation) -->
-	<div>
-		 <a href="template.html"> 
-		<img src= "iriswen.me.jpg" class="image"/>
-		</a> 
-		</div>
+	  <div class="Aligner">
+      <div class="Aligner-item">
+  		  <a href="template.html">
+   		    <img src= "iriswen.me.jpg" class="image">
+  		  </a>
+      </div>
+	  </div>
 	</header>
 </body>
 
