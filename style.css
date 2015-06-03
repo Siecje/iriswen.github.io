@@ -1,16 +1,11 @@
 /* comments look like this in CSS files */
 body{
-    background-color: #32F0B0;
+    background-color: #FFFFFF;
     width: 100%;
     height: 100%;
 }
 p {
 font-size: 1.5em;
-}
-
-#welcome{
-margin-left: auto;
-    margin-right: auto;
 }
 
 #about {
@@ -19,7 +14,7 @@ margin-left: auto;
   padding: 0.1em 0; /* 0.5em padding on top/bottom, 0 padding on left/right */
 } 
 #courseload {
-  color: #606060;            
+  color: #000000;            
   margin: 0;
   padding: 0.1em 0; /* 0.5em padding on top/bottom, 0 padding on left/right */
 } 
@@ -41,8 +36,6 @@ a {
 color: #ffffff;
 }
 
-
-
 #photo {
     width: 20%;
     height: 20%;
@@ -50,8 +43,8 @@ color: #ffffff;
 
 #navbar a:hover {
   margin: 0;
-  padding: 0.5em;
-  color: #32f0b0;
+  padding: 0em;
+  color: #ffffff;
   text-decoration: none;
 }
 main {
